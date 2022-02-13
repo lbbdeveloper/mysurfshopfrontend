@@ -1,0 +1,38 @@
+<div>
+  
+  <!-- HEADER DESKTOP-->
+  <nav class="navbar navbar-dark px-5" style="background-color: #2e8da9;">
+    <a class="navbar-brand" href="/">
+      <img src="assets/images/logo.png" width="25" height="25" alt="SurfShop">
+      SurfShop
+    </a>
+
+  </nav>
+  <!-- END HEADER DESKTOP-->
+  
+  <div class="container-fluid">
+    <div class="row"  style='width:100vw;'>
+    <!-- MENU SIDEBAR-->
+      <div class="col-sm-12 col-md-3 col-xl-2 bd-sidebar">
+    
+      </div>
+      <!-- END MENU SIDEBAR-->
+      
+      <!-- MAIN CONTENT-->
+      <div class="col-sm-12 col-md-9 col-xl-10">
+        <router-outlet></router-outlet>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- ENDS PAGE CONTAINER -->
+
+<footer>
+  <ul>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Help</a></li>
+  </ul>
+</footer>
