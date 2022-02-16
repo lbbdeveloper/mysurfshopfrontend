@@ -13,6 +13,7 @@
                                 <h6 class="card-title">{{ tempProduct.name }}</h6>
                             </a>
                           <p class="card-text">{{ tempProduct.unitPrice | currency:'USD' }}</p>
+                          <button ()="addToCart(tempProduct)" class="btn btn-primary btn-sm">Add to cart</button>
                         </div>
                       </div>
 
